@@ -62,8 +62,8 @@ logger = logging.getLogger(__name__)
 logger.info("Applying nested asyncio patch")
 nest_asyncio.apply()
 
-OPENAI_TOOL_LLM_NAME = "gpt-3.5-turbo-0613"
-OPENAI_CHAT_LLM_NAME = "gpt-3.5-turbo-0613"
+OPENAI_TOOL_LLM_NAME = "gpt-4-1106-preview"
+OPENAI_CHAT_LLM_NAME = "gpt-4-1106-preview"
 
 
 def get_s3_fs() -> AsyncFileSystem:
